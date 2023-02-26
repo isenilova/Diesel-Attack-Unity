@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlowmapPreview_Dynamic
+  m_Shader: {fileID: 4800000, guid: 360b98bd5ab86c04f8df4b6aa1b16c14, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailHeightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvMap:
+        m_Texture: {fileID: 8900000, guid: 67bd6d6442c216c4aae9aba575fc5153, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowmapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 97052252351254b419ed287883c8dcce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0e3105df391b7a043ae3c7c46d6a9496, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 1f1680598cb255f45b20e7a802ad5ec0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 3a845751f5b1bdb4ebc8452374cd3f38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimLength: 8
+    - _Displacement: 1
+    - _EmissionLM: 0
+    - _FlowScale: 1
+    - _FoamSpeed: 0.4
+    - _FoamTiling: 12
+    - _NoiseScale: 1
+    - _NoiseTiling: 1
+    - _NormalTiling: 24
+    - _Phong: 0.5
+    - _Shininess: 10.000001
+    - _Tess: 4
+    m_Colors:
+    - _Color: {r: 0.7835821, g: 0.7835821, b: 0.7835821, a: 1}
+    - _DeepColor: {r: 0.19402987, g: 0.15726465, b: 0.11149477, a: 1}
+    - _FoamColor: {r: 0.8358974, g: 0.7780882, b: 0.7299027, a: 1}
+    - _ShallowColor: {r: 0.23880595, g: 0.20291772, b: 0.17464912, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TranslucentColor: {r: 0.13434392, g: 0.12874962, b: 0.11329172, a: 1}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ZZ_Levels/MainMenu.unity
+    guid: 95dbcaf04e53c51419d5d85eee073f60
+  - enabled: 1
+    path: Assets/ZZ_Levels/Level_2_1.unity
+    guid: 4a585c361cf195f48a5eaef0d6ec91dd
+  - enabled: 1
+    path: Assets/ZZ_Levels/Level_1_1.unity
+    guid: 25a3f5ad6c3788a4694130fc223b7bb3
+  - enabled: 1
+    path: Assets/ZZ_Levels/Level_3_1.unity
+    guid: b51ac0e56b3754647b503044a37c57db
+  - enabled: 1
+    path: Assets/ZZ_Levels/SelectLevel.unity
+    guid: 5969370f8dd371442acbeb96ccbd8e3e
+  - enabled: 1
+    path: Assets/ZZ_Levels/Shop.unity
+    guid: dc94890e17b68994db12a5b6c195b1f9
+  - enabled: 1
+    path: Assets/ZZ_Levels/LoadLevel1.unity
+    guid: c8ee0dc93c07487438a9742ce3d8a90a
+  - enabled: 1
+    path: Assets/ZZ_Levels/LoadLevel2.unity
+    guid: f637961fcb171fd49afea811a1766b21
+  - enabled: 1
+    path: Assets/ZZ_Levels/LoadLevel3.unity
+    guid: 41bbc012042ca0d4bbb20520dca71d7e
+  - enabled: 1
+    path: Assets/ZZ_Levels/LoadLevel4.unity
+    guid: 2962d66d601f5634aa0ee798d5321a31
+  - enabled: 1
+    path: Assets/ZZ_Levels/LoadLevel5.unity
+    guid: f59c934f24d122b4ba2b184fb09da857
+  - enabled: 1
+    path: Assets/ZZ_Levels/Level_5_1.unity
+    guid: 5edd85e94781cd24ba92485022efdcf5
+  - enabled: 1
+    path: Assets/ZZ_Levels/Level_6_1.unity
+    guid: 51fa325f61d8a5849b7ee9233d20aa7c
+  - enabled: 1
+    path: Assets/ZZ_Levels/LoadLevel6.unity
+    guid: f2fce1de62275d54294f1d9cda988353
+  m_configObjects: {}

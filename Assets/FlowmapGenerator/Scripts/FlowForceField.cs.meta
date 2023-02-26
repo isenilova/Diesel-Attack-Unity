@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 60a78ca76c9683f4f95c08f61c22fe8b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - falloffTexture: {instanceID: 0}
+  - renderPlane: {instanceID: 0}
+  - vectorTexture: {instanceID: 0}
+  - attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+      type: 3}
+  - repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+      type: 3}
+  - vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+      type: 3}
+  - vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+      type: 3}
+  - directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+      type: 3}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 0071f882e9285434c9a8f88b68f7f043, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

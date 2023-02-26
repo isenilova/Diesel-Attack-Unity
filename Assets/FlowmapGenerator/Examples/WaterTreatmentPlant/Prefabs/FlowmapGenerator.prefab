@@ -1,0 +1,1218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Remove Fluid Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.686044, y: 1, z: 39.6865}
+  m_LocalScale: {x: 11.840097, y: 11.840097, z: 11.840097}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71412da2f3eaa5741bb3238f44e1e535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.001
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400002}
+  - component: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Add Fluid Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.499999, y: 1, z: -25.775066}
+  m_LocalScale: {x: 10.607439, y: 0.080783, z: 3.8511066}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a1cbb711407b545ae2fc0bdc0b4aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400004}
+  - component: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: Vortex 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.648781, y: 1, z: 39.75636}
+  m_LocalScale: {x: 10.527006, y: 0.1914, z: 11.04031}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.02
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 3
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400006}
+  - component: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: Vortex 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.6976595, y: 1, z: 39.75636}
+  m_LocalScale: {x: 10.527006, y: 0.19140004, z: 11.04031}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.02
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 2
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400008}
+  - component: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: Side Add Fluid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22, y: 1, z: -6.5516367}
+  m_LocalScale: {x: 6.563876, y: 0.080783, z: 3.820688}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a1cbb711407b545ae2fc0bdc0b4aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400010}
+  - component: {fileID: 11400014}
+  - component: {fileID: 11400012}
+  - component: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: FlowmapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 8.076267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400020}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031d1042e6d9b5544a59434db5e92d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fields:
+  - {fileID: 11400022}
+  - {fileID: 11400008}
+  - {fileID: 11400030}
+  - {fileID: 11400002}
+  - {fileID: 11400026}
+  - {fileID: 11400042}
+  - {fileID: 11400020}
+  - {fileID: 11400024}
+  - {fileID: 11400016}
+  - {fileID: 11400018}
+  - {fileID: 11400034}
+  - {fileID: 11400028}
+  - {fileID: 11400036}
+  - {fileID: 11400038}
+  - {fileID: 11400000}
+  - {fileID: 11400040}
+  - {fileID: 11400006}
+  - {fileID: 11400004}
+  - {fileID: 11400032}
+  gpuAcceleration: 1
+  autoAddChildFields: 1
+  maxThreadCount: 1
+  dimensions: {x: 51.2, y: 79.36}
+  outputFileFormat: 0
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5aa668716226f64b8761a9dad02f956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resolutionX: 256
+  resolutionY: 256
+  borderCollision: 0
+  simulateOnPlay: 0
+  maxSimulationSteps: 2000
+  continuousSimulation: 0
+  outputFolderPath: 
+  outputPrefix: 
+  writeToFileOnMaxSimulationSteps: 1
+  updateTextureDelayCPU: 10
+  timestep: 0.28
+  evaporationRate: 0.002
+  gravity: 0.7
+  velocityScale: 1
+  fluidAddMultiplier: 0.15
+  fluidRemoveMultiplier: 0.01
+  fluidForceMultiplier: 0.07
+  initialFluidAmount: 0.001
+  fluidDepth: 0
+  outputAccumulationRate: 0.01
+  outputFilterStrength: 1
+  simulateFoam: 1
+  foamVelocityScale: 7
+  simulateFirstFluidHit: 0
+  firstFluidHitTimeMax: 30
+  assignFlowmapToMaterials:
+  - {fileID: 2100000, guid: 9d2eda73ed127a246a95541bb0b17476, type: 2}
+  assignFlowmap: 0
+  assignedFlowmapName: _FlowmapTex
+  assignHeightAndFluid: 0
+  assignedHeightAndFluidName: _HeightTex
+  assignUVScaleTransform: 1
+  assignUVCoordsName: _FlowmapUV
+  writeHeightAndFluid: 1
+  writeFoamSeparately: 0
+  writeFluidDepthInAlpha: 0
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b686b217e14b83419703ef7ba9b2d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previewHeightmap: 0
+  drawPreviewPlane: 0
+  previewGameObject: {fileID: 0}
+  previewMaterial: {fileID: 0}
+  heightmap: {fileID: 2800000, guid: c2935e4730912784fbb2eade48cc7c38, type: 3}
+  isRaw: 0
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400012}
+  - component: {fileID: 11400016}
+  m_Layer: 0
+  m_Name: Vortex 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.249999, y: 1, z: 24.396166}
+  m_LocalScale: {x: 12.100005, y: 0.22, z: 12.69001}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.1
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 2
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400014}
+  - component: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: Vortex 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.249999, y: 1, z: 24.396166}
+  m_LocalScale: {x: 12.100005, y: 0.22, z: 12.69001}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.1
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 3
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400016}
+  - component: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: Vortex 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.249999, y: 1, z: 8.025696}
+  m_LocalScale: {x: 12.100005, y: 0.22, z: 12.69001}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.1
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 2
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400018}
+  - component: {fileID: 11400022}
+  m_Layer: 0
+  m_Name: Side Add Fluid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22, y: 1, z: -6.5516367}
+  m_LocalScale: {x: 6.563876, y: 0.08078272, z: 3.8206875}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a1cbb711407b545ae2fc0bdc0b4aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400020}
+  m_Layer: 0
+  m_Name: Fields
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: -8.076267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400028}
+  - {fileID: 400002}
+  - {fileID: 400018}
+  - {fileID: 400008}
+  - {fileID: 400036}
+  - {fileID: 400022}
+  - {fileID: 400012}
+  - {fileID: 400032}
+  - {fileID: 400024}
+  - {fileID: 400034}
+  - {fileID: 400026}
+  - {fileID: 400016}
+  - {fileID: 400040}
+  - {fileID: 400014}
+  - {fileID: 400006}
+  - {fileID: 400004}
+  - {fileID: 400030}
+  - {fileID: 400000}
+  - {fileID: 400038}
+  m_Father: {fileID: 400010}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400022}
+  - component: {fileID: 11400024}
+  m_Layer: 0
+  m_Name: Vortex 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.249999, y: 1, z: 8.025696}
+  m_LocalScale: {x: 12.100005, y: 0.22, z: 12.69001}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.1
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 3
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400024}
+  - component: {fileID: 11400026}
+  m_Layer: 0
+  m_Name: Vortex 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.32, y: 1, z: -8}
+  m_LocalScale: {x: 12.100005, y: 0.22000009, z: 12.690011}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.1
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 2
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400026}
+  - component: {fileID: 11400028}
+  m_Layer: 0
+  m_Name: Force Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100026}
+  m_LocalRotation: {x: 0, y: -0.7071063, z: 0, w: 0.7071073}
+  m_LocalPosition: {x: 0, y: 1, z: -24.76675}
+  m_LocalScale: {x: 4.735788, y: 0.230866, z: 13.664995}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.05
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+  force: 4
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400028}
+  - component: {fileID: 11400030}
+  m_Layer: 0
+  m_Name: Add Fluid Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.499999, y: 1, z: -25.775066}
+  m_LocalScale: {x: 10.607439, y: 0.080783, z: 3.8511066}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a1cbb711407b545ae2fc0bdc0b4aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+--- !u!1 &100030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400030}
+  - component: {fileID: 11400032}
+  m_Layer: 0
+  m_Name: Force Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100030}
+  m_LocalRotation: {x: 0, y: 0.7079178, z: 0, w: 0.70629483}
+  m_LocalPosition: {x: -0.2443966, y: 1, z: 41.959183}
+  m_LocalScale: {x: 10.914402, y: 0.128172, z: 32.42229}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.05
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+  force: 4
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400032}
+  - component: {fileID: 11400034}
+  m_Layer: 0
+  m_Name: Force Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100032}
+  m_LocalRotation: {x: 0, y: -0.70710635, z: 0, w: 0.7071073}
+  m_LocalPosition: {x: 0, y: 1, z: -20.282646}
+  m_LocalScale: {x: 4.7357883, y: 0.2308662, z: 13.664993}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.05
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+  force: 4
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400034}
+  - component: {fileID: 11400036}
+  m_Layer: 0
+  m_Name: Force Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100034}
+  m_LocalRotation: {x: 0, y: -0.02617695, z: 0, w: 0.99965733}
+  m_LocalPosition: {x: 9.694546, y: 1, z: -0.7110977}
+  m_LocalScale: {x: 10.914405, y: 0.12817152, z: 26.465628}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.05
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+  force: 4
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400036}
+  - component: {fileID: 11400038}
+  m_Layer: 0
+  m_Name: Force Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100036}
+  m_LocalRotation: {x: 0, y: 0.02617695, z: 0, w: 0.99965733}
+  m_LocalPosition: {x: -9.390761, y: 1, z: -0.7110977}
+  m_LocalScale: {x: 10.914404, y: 0.12817152, z: 26.465628}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.05
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+  force: 4
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}
+--- !u!1 &100038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400038}
+  - component: {fileID: 11400040}
+  m_Layer: 0
+  m_Name: Remove Fluid Field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.68604, y: 1, z: 39.6865}
+  m_LocalScale: {x: 11.840097, y: 11.840097, z: 11.840097}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71412da2f3eaa5741bb3238f44e1e535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.001
+  falloffTexture: {fileID: 2800000, guid: 28a8e84a4c5582048919a31793c53e40, type: 3}
+  renderPlane: {fileID: 0}
+--- !u!1 &100040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400040}
+  - component: {fileID: 11400042}
+  m_Layer: 0
+  m_Name: Vortex 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.249999, y: 1, z: -8.603615}
+  m_LocalScale: {x: 12.100005, y: 0.22, z: 12.69001}
+  m_Children: []
+  m_Father: {fileID: 400020}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a78ca76c9683f4f95c08f61c22fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.1
+  falloffTexture: {fileID: 2800000, guid: 3ff3193411257b24da77dd6a97ca1d2d, type: 3}
+  renderPlane: {fileID: 0}
+  force: 3
+  vectorTexture: {fileID: 0}
+  attractVectorPreview: {fileID: 2800000, guid: 9b07afb12f2b2dd4e9859e0a2744be2e,
+    type: 3}
+  repulseVectorPreview: {fileID: 2800000, guid: 5c90dd1c4afe0334e9b9f7730d206cbf,
+    type: 3}
+  vortexClockwiseVectorPreview: {fileID: 2800000, guid: 5f2642fbaa03b294b83ac9cf50ff54f0,
+    type: 3}
+  vortexCounterClockwiseVectorPreview: {fileID: 2800000, guid: f12d6bc473f39694eadf8d4bcd3d5020,
+    type: 3}
+  directionalVectorPreview: {fileID: 2800000, guid: e574e951afa521847b901b54356457de,
+    type: 3}

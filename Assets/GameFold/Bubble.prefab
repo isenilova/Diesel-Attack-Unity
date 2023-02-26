@@ -1,0 +1,1046 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1569853787325704}
+  m_IsPrefabParent: 1
+--- !u!1 &1569853787325704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4284838086322090}
+  - component: {fileID: 114816590491159206}
+  - component: {fileID: 114391602733883330}
+  - component: {fileID: 114262527023516668}
+  - component: {fileID: 114732381342984624}
+  m_Layer: 0
+  m_Name: Bubble
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1739521802580908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4048968839665518}
+  - component: {fileID: 212017934377426858}
+  m_Layer: 0
+  m_Name: SpeechBubble
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1929224638300336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4832434964893242}
+  - component: {fileID: 33935690962089582}
+  - component: {fileID: 114036277747064250}
+  - component: {fileID: 23931647162434244}
+  - component: {fileID: 114554996757873536}
+  - component: {fileID: 114621193000130010}
+  m_Layer: 0
+  m_Name: New Super Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1954943519419352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4108819252503008}
+  - component: {fileID: 212248095725376878}
+  m_Layer: 0
+  m_Name: enterkey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4048968839665518
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1739521802580908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4284838086322090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4108819252503008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954943519419352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.48, y: -2.06, z: 2.63}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4284838086322090}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4284838086322090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569853787325704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4048968839665518}
+  - {fileID: 4108819252503008}
+  - {fileID: 4832434964893242}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4832434964893242
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929224638300336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.13, y: 1.9, z: 2.97}
+  m_LocalScale: {x: 1.0324479, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4284838086322090}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23931647162434244
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929224638300336}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33935690962089582
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929224638300336}
+  m_Mesh: {fileID: 0}
+--- !u!114 &114036277747064250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929224638300336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffcfb6d0266347848bf69a03919f483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showAppearanceFoldout: 1
+  showMaterialFoldout: 0
+  showPositionFoldout: 1
+  showTimingFoldout: 0
+  showFunctionalityFoldout: 0
+  showAudioFoldout: 0
+  showEventFoldout: 1
+  info:
+  - pos: {x: 0, y: -1, z: 0}
+    readTime: 0
+    unreadTime: 0.11334886
+    line: 0
+    rawIndex: 0
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 0.6875, y: -1, z: 0}
+    readTime: 0.05
+    unreadTime: 0.19894293
+    line: 0
+    rawIndex: 0
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 1.171875, y: -1, z: 0}
+    readTime: 0.1
+    unreadTime: 0.20898074
+    line: 0
+    rawIndex: 1
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 1.453125, y: -1, z: 0}
+    readTime: 0.15
+    unreadTime: 0.046954006
+    line: 0
+    rawIndex: 2
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 1.734375, y: -1, z: 0}
+    readTime: 0.2
+    unreadTime: 0.030485958
+    line: 0
+    rawIndex: 3
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 2.25, y: -1, z: 0}
+    readTime: 0.25
+    unreadTime: 0.21414086
+    line: 0
+    rawIndex: 4
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 2.484375, y: -1, z: 0}
+    readTime: 0.35
+    unreadTime: 0.18348238
+    line: 0
+    rawIndex: 5
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 11400000, guid: 2a6d01a99e42e4a1ea7e74e160f25b84, type: 2}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 2.703125, y: -1, z: 0}
+    readTime: 0.4
+    unreadTime: 0.11510287
+    line: 0
+    rawIndex: 6
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 3.390625, y: -1, z: 0}
+    readTime: 0.45000002
+    unreadTime: 0.03417048
+    line: 0
+    rawIndex: 7
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 3.90625, y: -1, z: 0}
+    readTime: 0.5
+    unreadTime: 0.15688717
+    line: 0
+    rawIndex: 8
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 4.296875, y: -1, z: 0}
+    readTime: 0.55
+    unreadTime: 0.03185776
+    line: 0
+    rawIndex: 9
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 4.578125, y: -1, z: 0}
+    readTime: 0.6
+    unreadTime: 0.18649894
+    line: 0
+    rawIndex: 10
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  - pos: {x: 5.125, y: -1, z: 0}
+    readTime: 0.65000004
+    unreadTime: 0.058014154
+    line: 0
+    rawIndex: 11
+    indent: 0
+    drawAnimData: {fileID: 11400000, guid: 0fef2a6be005a4a6584f7f6e465e512a, type: 2}
+    size: 1
+    alignment: 0
+    drawOrder: 0
+    ev: []
+    ev2: []
+    colorData: {fileID: 0}
+    gradientData: {fileID: 0}
+    textureData: {fileID: 0}
+    delayData: {fileID: 0}
+    waveData: {fileID: 0}
+    jitterData: {fileID: 0}
+    readDelay: 0.05
+    audioClipData: {fileID: 0}
+    stopPreviousSound: 0
+    pitchMode: 1
+    overridePitch: 1
+    minPitch: 0.9
+    maxPitch: 1.2
+    speedReadPitch: 0.5
+    fontData: {fileID: 0}
+    quadData: {fileID: 0}
+    quadIndex: -1
+    materialData: {fileID: 0}
+    soundClipData: {fileID: 0}
+  _text: Hello, world!
+  drawText: Hello, world!
+  hyphenedText: Hello, world!
+  font: {fileID: 12800000, guid: f8c6c92a0062f424fa2c7138c494ccad, type: 3}
+  color:
+    serializedVersion: 2
+    rgba: 4278190080
+  richText: 1
+  readDelay: 0.05
+  speedReadScale: 4
+  ignoreTimeScale: 1
+  disableAnimatedText: 0
+  drawAnimName: Blink
+  unreadDelay: 0.25
+  undrawOrder: 3
+  undrawAnimName: Fade
+  audioSource: {fileID: 0}
+  audioClips:
+  - {fileID: 8300000, guid: ca347218181d44f758cfc46c3bb2a999, type: 3}
+  stopPreviousSound: 0
+  pitchMode: 1
+  overridePitch: 1
+  minPitch: 0.9
+  maxPitch: 1.2
+  speedReadPitch: 0.5
+  perlinPitchMulti: 1
+  reading: 0
+  unreading: 0
+  size: 1
+  bestFitMulti: 1
+  quality: 64
+  filterMode: 1
+  style: 0
+  baseOffset: {x: 0, y: 0, z: 0}
+  lineSpacing: 1
+  characterSpacing: 0
+  tabSize: 4
+  autoWrap: 10.75
+  breakText: 0
+  insertHyphens: 1
+  anchor: 0
+  alignment: 0
+  verticalLimit: 3
+  verticalLimitMode: 4
+  leftoverText: 
+  textMaterial: {fileID: 2100000, guid: e0195eb33d5b847d4a1ad54c04efc088, type: 2}
+  textMesh: {fileID: 0}
+  rawTopLeftBounds: {x: 0, y: 0, z: 0}
+  rawBottomRightBounds: {x: -10.75, y: 3, z: 0}
+  topLeftBounds: {x: -6.13, y: 3.62, z: 2.97}
+  topRightBounds: {x: 4.968815, y: 3.62, z: 2.97}
+  bottomLeftBounds: {x: -6.13, y: 0.62, z: 2.97}
+  bottomRightBounds: {x: 4.968815, y: 0.62, z: 2.97}
+  centerBounds: {x: -0.58059263, y: 2.12, z: 2.97}
+  maxX: 5.34375
+  minY: -2
+  unwrappedMaxX: 5.375
+  unwrappedMinY: -1
+  onCompleteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114816590491159206}
+        m_MethodName: CompletedDrawing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1954943519419352}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onUndrawnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114816590491159206}
+        m_MethodName: CompletedUnreading
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onRebuildEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114554996757873536}
+        m_MethodName: ClearLinks
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1954943519419352}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  customEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114554996757873536}
+        m_MethodName: DoEvent
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: SuperTextMesh+CustomEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  vertexMod:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: SuperTextMesh+VertexMod, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  preParse:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: SuperTextMesh+PreParse, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  debugMode: 0
+  totalReadTime: 0.7500101
+  totalUnreadTime: 0.46414086
+  currentReadTime: 1000.75
+  autoRead: 1
+  rememberReadPosition: 1
+  drawOrder: 0
+  bestFit: 0
+  latestNumber: 12
+  lowestDrawnPosition: -1
+  preParsedText: Hello, world!
+--- !u!114 &114262527023516668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569853787325704}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f15294fbc1c4ea3afe28c03cda8bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 114036277747064250}
+  appendThis: <br>Hello world, again!
+--- !u!114 &114391602733883330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569853787325704}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 276e1705fce7243b7a40fcdfcbff3567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redraw: 0
+  sine:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.5
+      inSlope: 3.1415927
+      outSlope: 3.1415927
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.25
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.75
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0.5
+      inSlope: 3.1415927
+      outSlope: 3.1415927
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  cos:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  linear:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  inverseLinear:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114554996757873536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929224638300336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c0aafb6171147a7b4763f609b6c219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  confetti: {fileID: 107120, guid: 96728fc52b69b4ef7952fc5f0558ac4b, type: 2}
+  au: {fileID: 0}
+  myClip: {fileID: 8300000, guid: 7f53ec3aa08934a9e88333ee89c826c4, type: 3}
+  link: {fileID: 114000013273700912, guid: 574d0091e49fc4bc3a5d299915eb046e, type: 2}
+  bgPrefab: {fileID: 0}
+--- !u!114 &114621193000130010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1929224638300336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6946f7a320f84d34a9b23727c0defc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionOffset: {x: 0, y: 0, z: 0}
+  angleOffset: -1
+  pivot: {x: 0, y: 0, z: 0}
+  letterRotation: 1
+  sketchDelay: 0.25
+  sketchAmount: 0.025
+--- !u!114 &114732381342984624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569853787325704}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142ca0142e70419418bb3183dbac4525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stm: {fileID: 114036277747064250}
+--- !u!114 &114816590491159206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569853787325704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfa1709fa97e41c8b71b441beb3fbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh: {fileID: 114036277747064250}
+  advanceKey: 13
+  advanceKeySprite: {fileID: 212248095725376878}
+  advanceKeyScale: {x: 0.4, y: 0.4, z: 1}
+  advanceKeyTime: 10
+  lines:
+  - Wouldn't it be great if this incredibly, incredibly long text box would automatically
+    stop reading when it got to the end of what was visible, and only continued once
+    Continue() was called? That'd be cool!
+  - <c=red><minPitch=1.4><maxPitch=1.6>Hey, how are <e=printpos>you, <e=asdad>today?
+    <pause>Asking for a friend. <pause>Also... This extra text here is just to show
+    off my scrolling textboxes. Neat!
+  - <minPitch=0.6><maxPitch=0.8>Oh, I'm just <w=sassy>fine</c>. <pause>But I could
+    be better.
+  - <minPitch=1.4><maxPitch=1.6><c=fire>Woah!</c> What's with the <c=rainbow>sass?
+  - <minPitch=0.6><maxPitch=0.8><e=playSound>Sorry, I'm just a little <j>on-edge</j>,
+    today.
+  - <minPitch=1.4><maxPitch=1.6>Maybe some <e=confetti>confetti will cheer you up?
+  - <minPitch=0.6><maxPitch=0.8><j>Oh, no!</j> I'm <w=seasick>allergic...</w>
+  - <v=typewriter>Also this text is like a typewriter for some reason.
+--- !u!212 &212017934377426858
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1739521802580908}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5053886da51be44de987e3bd42e77994, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7419bda29b5cb400197c74602893de5d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!212 &212248095725376878
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954943519419352}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5053886da51be44de987e3bd42e77994, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 54efce8b012d74a59850fc616378d081, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0

@@ -1,0 +1,11 @@
+        /*
+         * 0 - empty
+         * 1 - inner block
+         * 2 - ladder
+         * 3 - close block
+         * 4 - crate
+         * a - player start
+         * z - end
+         * b---- enemies
+         * 
+         * */

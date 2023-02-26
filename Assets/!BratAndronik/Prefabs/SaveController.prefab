@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8817450451261144311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8817450451261144310}
+  - component: {fileID: 8817450451261144265}
+  - component: {fileID: 8817450451261144264}
+  m_Layer: 0
+  m_Name: SaveController
+  m_TagString: SaveController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8817450451261144310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8817450451261144311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -59.253017, y: 37.92629, z: 7.9765625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8817450451261144265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8817450451261144311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cfb2ccf2afd9c4093179352f57a6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBuiSpaum:
+  - 5
+  - 25
+  BuiObj: {fileID: 8738034525824521706, guid: f67c6890af9a4e344bf0fb5ff05d5249, type: 3}
+  checkPointNum: -1
+  myTimeStart: 0
+  deltaYSpaum: 0
+--- !u!114 &8817450451261144264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8817450451261144311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7927acc1668904409146f9c7ab4d276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myLifes: {fileID: 0}
+  thisScene: Level_2_1

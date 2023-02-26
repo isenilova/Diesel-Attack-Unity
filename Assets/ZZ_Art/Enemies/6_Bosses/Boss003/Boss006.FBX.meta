@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 9aeb539784846da4c9fa434779e2d209
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Beams_Bot_001
+    100002: Beams_Bot_002
+    100004: Beams_Bot_003
+    100006: Beams_Bot_004
+    100008: Beams_Top_001
+    100010: Beams_Top_002
+    100012: Beams_Top_003
+    100014: Beams_Top_004
+    100016: Body_Bottom
+    100018: Body_Top
+    100020: Bone001
+    100022: Bone002
+    100024: Bone003
+    100026: Bone004
+    100028: Bone005
+    100030: Bone006
+    100032: Bone007
+    100034: Bone008
+    100036: Bone009
+    100038: Bone010
+    100040: Bone011
+    100042: Bone012
+    100044: Bone013
+    100046: Bone014
+    100048: Bone015
+    100050: Bone016
+    100052: Bone017
+    100054: Bone018
+    100056: //RootNode
+    100058: Cylinder011
+    100060: Door_bot
+    100062: Door_bot001
+    100064: Dummy001_Main
+    100066: Dummy002_Bot
+    100068: Dummy002_Mid
+    100070: Dummy003_Top
+    100072: Fuel_Tank_001
+    100074: Fuel_Tank_001_destroy
+    100076: Fuel_Tank_001_destroy001
+    100078: Fuel_Tank_002
+    100080: Object031
+    100082: Object046
+    100084: Object058
+    100086: Beams_Top_005
+    100088: Beams_Top_006
+    100090: Beams_Top_007
+    100092: Beams_Top_008
+    100094: Beams_Top_009
+    400000: Beams_Bot_001
+    400002: Beams_Bot_002
+    400004: Beams_Bot_003
+    400006: Beams_Bot_004
+    400008: Beams_Top_001
+    400010: Beams_Top_002
+    400012: Beams_Top_003
+    400014: Beams_Top_004
+    400016: Body_Bottom
+    400018: Body_Top
+    400020: Bone001
+    400022: Bone002
+    400024: Bone003
+    400026: Bone004
+    400028: Bone005
+    400030: Bone006
+    400032: Bone007
+    400034: Bone008
+    400036: Bone009
+    400038: Bone010
+    400040: Bone011
+    400042: Bone012
+    400044: Bone013
+    400046: Bone014
+    400048: Bone015
+    400050: Bone016
+    400052: Bone017
+    400054: Bone018
+    400056: //RootNode
+    400058: Cylinder011
+    400060: Door_bot
+    400062: Door_bot001
+    400064: Dummy001_Main
+    400066: Dummy002_Bot
+    400068: Dummy002_Mid
+    400070: Dummy003_Top
+    400072: Fuel_Tank_001
+    400074: Fuel_Tank_001_destroy
+    400076: Fuel_Tank_001_destroy001
+    400078: Fuel_Tank_002
+    400080: Object031
+    400082: Object046
+    400084: Object058
+    400086: Beams_Top_005
+    400088: Beams_Top_006
+    400090: Beams_Top_007
+    400092: Beams_Top_008
+    400094: Beams_Top_009
+    2100000: Unwrap Texture Checker Material
+    2100002: 03 - Default
+    2100004: 02 - Default
+    2100006: 08 - Default
+    2100008: 07 - Default
+    2300000: Beams_Top_005
+    2300002: Beams_Top_006
+    2300004: Beams_Top_007
+    2300006: Beams_Top_008
+    2300008: Beams_Top_009
+    3300000: Beams_Top_005
+    3300002: Beams_Top_006
+    3300004: Beams_Top_007
+    3300006: Beams_Top_008
+    3300008: Beams_Top_009
+    4300000: Body_Bottom
+    4300002: Body_Top
+    4300004: Object031
+    4300006: Door_bot
+    4300008: Door_bot001
+    4300010: Beams_Top_001
+    4300012: Beams_Top_002
+    4300014: Beams_Top_003
+    4300016: Beams_Top_004
+    4300018: Beams_Bot_001
+    4300020: Beams_Bot_002
+    4300022: Beams_Bot_003
+    4300024: Beams_Bot_004
+    4300026: Fuel_Tank_001
+    4300028: Object046
+    4300030: Fuel_Tank_001_destroy
+    4300032: Object058
+    4300034: Fuel_Tank_002
+    4300036: Fuel_Tank_001_destroy001
+    4300038: Beams_Top_005
+    4300040: Beams_Top_006
+    4300042: Beams_Top_007
+    4300044: Beams_Top_008
+    4300046: Beams_Top_009
+    9500000: //RootNode
+    13700000: Beams_Bot_001
+    13700002: Beams_Bot_002
+    13700004: Beams_Bot_003
+    13700006: Beams_Bot_004
+    13700008: Beams_Top_001
+    13700010: Beams_Top_002
+    13700012: Beams_Top_003
+    13700014: Beams_Top_004
+    13700016: Body_Bottom
+    13700018: Body_Top
+    13700020: Door_bot
+    13700022: Door_bot001
+    13700024: Fuel_Tank_001
+    13700026: Fuel_Tank_001_destroy
+    13700028: Fuel_Tank_001_destroy001
+    13700030: Fuel_Tank_002
+    13700032: Object031
+    13700034: Object046
+    13700036: Object058
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0f1e60c0ec7240c489c4916876d9841f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cable: {instanceID: 0}
+  - kovsh: {instanceID: 0}
+  - leftK: {instanceID: 0}
+  - rightK: {instanceID: 0}
+  - contOpen: {fileID: 8300000, guid: cac84e609f5cd8e45a061722ffda6d55, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

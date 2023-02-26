@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1087406136986340}
+  m_IsPrefabAsset: 1
+--- !u!1 &1087406136986340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4877653916653526}
+  - component: {fileID: 114084446870060348}
+  - component: {fileID: 114444983213052016}
+  m_Layer: 0
+  m_Name: SpawnerThrasher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4877653916653526
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087406136986340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.5, y: 15.2, z: -0.59956443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114084446870060348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087406136986340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268f2447714e33946adf374c18fb97f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 10
+  speedY: 10
+  addSpeed: 10
+  useInp: 0
+  useBlock: 0
+  lox: {fileID: 0}
+  loy: {fileID: 0}
+  hix: {fileID: 0}
+  hiy: {fileID: 0}
+  bx: 10
+  by: 10
+  otlip: 0.1
+  raycLenHor: 2
+  raycLenVert: 1
+  deathDist: 2
+  heighto: {x: 0, y: 0.5, z: 0}
+  widtho: {x: 1, y: 0, z: 0}
+  visualize: 0
+  horAxis: Horizontal
+  vertAxis: Vertical
+  body: {fileID: 0}
+  useAcc: 0
+  maxAdd: 10
+  spdLoss: 1
+  accSpeed: 0
+--- !u!114 &114444983213052016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087406136986340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5715c579283fb42b2d80cc7ca8204a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  garbagers: []
+  delay: 3
+  numSpawn: 10
+  startTime: 30

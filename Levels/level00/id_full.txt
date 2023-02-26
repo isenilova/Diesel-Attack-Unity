@@ -1,0 +1,34 @@
+{
+  "otems": {
+    "154": {
+      "itemId": 12,
+      "id": 154,
+      "type": "way",
+      "me": 0,
+      "where": 0,
+      "parent": 0,
+      "visible": 1,
+      "speed": 0.0,
+      "szx": 1.0,
+      "szy": 1.0,
+      "dead": "",
+      "trigger": "00",
+      "behav": ""
+    },
+    "159": {
+      "itemId": 1,
+      "id": 159,
+      "type": "way",
+      "me": 0,
+      "where": 0,
+      "parent": 0,
+      "visible": 1,
+      "speed": 0.0,
+      "szx": 1.0,
+      "szy": 1.0,
+      "dead": "",
+      "trigger": "01",
+      "behav": ""
+    }
+  }
+}
