@@ -1,5 +1,7 @@
 # Diesel-Attack
 
+![](https://github.com/isenilova/Documentation/blob/main/92.png)
+
 Full user experience 
 User is able to receive in-game currency (DPoints) for activities inside the game - killing enemies. All of these points stay available after player ends current level (win or lose). All data including player progress is stored in our TON smart contracts completely on-chain.
 
