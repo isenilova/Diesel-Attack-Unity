@@ -2,7 +2,7 @@
 
 ![](https://github.com/isenilova/Documentation/blob/main/92.png)
 
-Full user experience 
+## Full user experience 
 User is able to receive in-game currency (DPoints) for activities inside the game - killing enemies. All of these points stay available after player ends current level (win or lose). All data including player progress is stored in our TON smart contracts completely on-chain.
 
 Player can spend DPoints using Lucky Roll (prize randomizer) and receive some in-game boost – advanced weapon or in-game skin for ship. The probability to receive each weapon depends on the weapon power and other attributes. All weapons can be upgraded by their copies, but the weapon level has top limit.
